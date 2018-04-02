@@ -54,3 +54,21 @@ nav .brand-logo {
   bottom: 0;
   right: 0;
 }
+
+.content {
+  width: 95%;
+  position: relative;
+  padding: 1em;
+  left: 50%;
+  transform:translateX(-50%);
+}
+
+.content h1 {
+  font-size: 2em;
+
+  color: #4d4d4d;
+}
+
+.content .cards {
+  display: flex;
+}
