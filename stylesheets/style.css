@@ -106,6 +106,7 @@ nav .brand-logo {
 
 .card .body * {
   padding: 0.25em 0;
+  color: #4d4d4d;
 }
 
 .body h2 {
@@ -117,5 +118,24 @@ nav .brand-logo {
 }
 
 .body .link {
-  
+  width: 90%;
+  position:relative;
+  left:50%;
+  margin: 1em 0;
+  padding: 1em;
+  background: #efefef;
+
+  transform: translateX(-50%);
+
+  color: #8d8d8d;
+}
+
+.body h3 {
+  text-transform: uppercase;
+  margin-top: 1em;
+}
+
+.body h2.special {
+  color: #28b6fe;
+  font-size: 2em;
 }
