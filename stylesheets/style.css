@@ -29,6 +29,16 @@ nav .left-nav li.active {
   color: #FFF;
 }
 
+nav .left-nav li i {
+  padding: 0.25em;
+  font-size: 0.75em;
+}
+
+nav .left-nav li:not(.active) i {
+  color: #28b6fe;
+}
+
+
 nav .right-nav {
   position: absolute;
   top:0;
