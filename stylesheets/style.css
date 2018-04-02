@@ -34,7 +34,7 @@ nav .right-nav {
   top:0;
   right:0;
 
-  padding: 1em;
+  padding: 1em 2em 1em 1em;
 
   color: #FFF;
 }
@@ -46,4 +46,11 @@ nav .right-nav * {
 nav .right-nav a {
   color: #28b6fe;
   text-decoration: none;
+}
+
+nav .brand-logo {
+  position: absolute;
+  padding: 2em;
+  bottom: 0;
+  right: 0;
 }
