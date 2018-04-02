@@ -1,3 +1,7 @@
+body {
+  font-family: Roboto, Arial;
+}
+
 nav {
   height: 15%;
   background: #2b2b2b;
@@ -12,4 +16,15 @@ nav .left-nav {
 
 nav .left-nav li {
   display: inline-block;
+
+  color: #989898;
+
+  text-transform: uppercase;
+  font-size: 1.2em;
+
+  padding: 1em;
+}
+
+nav .left-nav li.active {
+  color: #FFF;
 }
