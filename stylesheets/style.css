@@ -94,9 +94,10 @@ nav .brand-logo {
 
 .content .cards .card {
   display: inline-block;
-  flex: 0 1 ~"calc(25% - 15px)";
+  flex: 1;
 
   width: 25%;
+  margin: 10px;
 
   background: #FFF;
 
