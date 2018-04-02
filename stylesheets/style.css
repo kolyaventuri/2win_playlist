@@ -82,14 +82,40 @@ nav .brand-logo {
 
   width: 25%;
 
-  background: #FF0000;
+  background: #FFF;
+
+  height: 50%;
+
+  box-shadow: 1px 1px 5px rgba(0,0,0,0.25);
 }
 
 .card .heading {
   width: 100%;
-  height: 25%;
+  height: 35%;
+  overflow:hidden;
 }
 
 .card .heading img {
   width: 100%;
+}
+
+.card .body {
+  height: 65%;
+  padding: 1em;
+}
+
+.card .body * {
+  padding: 0.25em 0;
+}
+
+.body h2 {
+  font-size: 1.3em;
+}
+
+.body .date {
+  color: #939395;
+}
+
+.body .link {
+  
 }
