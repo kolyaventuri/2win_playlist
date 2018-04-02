@@ -28,3 +28,22 @@ nav .left-nav li {
 nav .left-nav li.active {
   color: #FFF;
 }
+
+nav .right-nav {
+  position: absolute;
+  top:0;
+  right:0;
+
+  padding: 1em;
+
+  color: #FFF;
+}
+
+nav .right-nav * {
+  display: inline-block;
+}
+
+nav .right-nav a {
+  color: #28b6fe;
+  text-decoration: none;
+}
