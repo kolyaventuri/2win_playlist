@@ -71,4 +71,25 @@ nav .brand-logo {
 
 .content .cards {
   display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.content .cards .card {
+  display: inline-block;
+  flex: 0 1 ~"calc(25% - 15px)";
+
+  width: 25%;
+
+  background: #FF0000;
+}
+
+.card .heading {
+  width: 100%;
+  height: 25%;
+}
+
+.card .heading img {
+  width: 100%;
 }
