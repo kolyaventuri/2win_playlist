@@ -41,11 +41,17 @@ nav .right-nav {
 
 nav .right-nav * {
   display: inline-block;
+  font-size: 1.2em;
+  vertical-align: center;
 }
 
 nav .right-nav a {
   color: #28b6fe;
   text-decoration: none;
+}
+
+nav .right-nav i.fa-user-circle {
+  font-size: 2em;
 }
 
 nav .brand-logo {
